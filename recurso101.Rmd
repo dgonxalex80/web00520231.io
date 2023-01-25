@@ -40,43 +40,43 @@ Con el fin de tener una idea inicial del propósito de este módulo, se presenta
 
 <br/><br/>
 
-# **Grupos 2022-2**
+<!-- # **Grupos 2022-2** -->
 
 
-```{r, echo=FALSE}
-t1011=table(pye20222$carrera,pye20222$grup)
-barplot(t1011,col = brewer.pal(6,"Set1"), ylim = c(0,30),
-        legend = rownames(t1011))
-```
-
-
-
-```{r, echo=FALSE, warning=FALSE}
-p=ggplot(pye20222, aes(x=prom_acad))+
-  geom_density()
-p 
-```
+<!-- ```{r, echo=FALSE} -->
+<!-- t1011=table(pye20222$carrera,pye20222$grup) -->
+<!-- barplot(t1011,col = brewer.pal(6,"Set1"), ylim = c(0,30), -->
+<!--         legend = rownames(t1011)) -->
+<!-- ``` -->
 
 
 
-```{r, echo=FALSE}
-p1012<-ggplot(pye20222, aes(x=grup, y=prom_acad)) +
-  geom_boxplot(fill = "palegreen", color = "blue4", 
-               size=0.5, outlier.color = "blue4", outlier.size = 2)+
-  geom_jitter(color="black", size=0.4, alpha=0.9)
-p1012  
-```
+<!-- ```{r, echo=FALSE, warning=FALSE} -->
+<!-- p=ggplot(pye20222, aes(x=prom_acad))+ -->
+<!--   geom_density() -->
+<!-- p  -->
+<!-- ``` -->
 
 
 
-```{r, echo=FALSE}
-ggplot(pye20222, aes(x = prom_acad, fill = grup)) +
-        geom_density(alpha = .5)
-```
+<!-- ```{r, echo=FALSE} -->
+<!-- p1012<-ggplot(pye20222, aes(x=grup, y=prom_acad)) + -->
+<!--   geom_boxplot(fill = "palegreen", color = "blue4",  -->
+<!--                size=0.5, outlier.color = "blue4", outlier.size = 2)+ -->
+<!--   geom_jitter(color="black", size=0.4, alpha=0.9) -->
+<!-- p1012   -->
+<!-- ``` -->
 
 
 
-<br/><br/>
+<!-- ```{r, echo=FALSE} -->
+<!-- ggplot(pye20222, aes(x = prom_acad, fill = grup)) + -->
+<!--         geom_density(alpha = .5) -->
+<!-- ``` -->
+
+
+
+<!-- <br/><br/> -->
 
 
 # **Metodología Estadística**
