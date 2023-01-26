@@ -19,8 +19,13 @@ library(knitr)
 library(readxl)
 library(tidyverse)
 # Colombia<- readRDS("data/Colombia.RDS")
+#install.packages('remotes')  # solo una vez
+library(remotes) # solo una vez
+# install_github("dgonxalex80/paqueteDEG", force = TRUE) # solo una vez
+library(paqueteDEG)
+data(Colombia23)
 library(readxl)
-pye20222 <- read_excel("data/pye20222.xlsx", sheet = "Sheet4", col_types = c("text", "numeric", "text", "numeric", "text", "numeric", "numeric","numeric", "numeric"))
+# pye20222 <- read_excel("data/pye20222.xlsx", sheet = "Sheet4", col_types = c("text", "numeric", "text", "numeric", "text", "numeric", "numeric","numeric", "numeric"))
 
 # colores
 c0= "#b0394a"
@@ -898,14 +903,10 @@ El formato **csv** es uno de los mas utilizados para el almacenamiento de datos 
 + RStudio usando comandos : 
 
 <br/>
-
-```{r, warning=FALSE, message=FALSE}
-var1=c(1,2,4,5)
-bd=pye20222[,var1]
-head(bd, n=3)
+```{r, echo=FALSE}
+library(readr)
+casas <- read_delim("data/casas.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
-
-<br/>
 
 Otro ejemplo para importar una base de datos en formato csv :
 

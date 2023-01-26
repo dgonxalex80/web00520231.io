@@ -26,26 +26,30 @@ navbar:
         - text: "Guía 1.1"
           href: Guia101.html            
         - text: "Guía 1.2"
-          href: paguina0.html            
+          href: Guia102.html            
         - text: "Guía 1.3"
           href: pagina0.html   
         - text: "---------"  
         - text: "Recursos 1.1"
           href: recurso101.html  
         - text: "Recursos 1.2"
-          href: pagina0.html  
+          href: recurso102.html  
         - text: "Recursos 1.3"
           href: pagina0.html  
         - text: "---------"            
         - text: "Monitoria 1"
           href: pagina0.html  
-        - text: "Taller 1"
-          href: pagina0.html            
+        - text: "Caso 1"
+          href: caso1.html            
         - text: "---------"          
         - text: "Introducción a R"
           href: introduccionR.html
         - text: "Código 1.1"
-          href: pagina0.html   
+          href: codigo101.html
+        - text: "Código 1.2"
+          href: codigo102.html
+        - text: "Código 1.3"
+          href: codigo103.html          
     - text: "Módulo 2"
       menu:
         - text: "Módulo 2"
