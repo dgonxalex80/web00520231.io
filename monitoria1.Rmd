@@ -74,15 +74,14 @@ Responda F (Falso)  o V (Verdadero), justificando la respuesta en caso de ser Fa
 |:--|:-------------------------------------------------|
 |a. | La desviación estándar del conjunto de valores  2, 2, 2, 2  y 2 es 2. |
 |b. | En una distribución de frecuencias acampanada, el rango de los datos es aproximadamente igual a seis desviaciones estándar. |
-|c. | Dos conjuntos de datos de tamaños $n_1$ y $n_2$ tienen respectivamente promedios $\bar{x}_{2}$ y $\bar{x}_{2}$. |
-|d. | A partir de esta información, se puede obtener el respectivo estadístico del total de datos  |
+|c. | Dos conjuntos de datos de tamaños $n_1$ y $n_2$ tienen respectivamente promedios $\bar{x}_{2}$ y $\bar{x}_{2}$, a partir de esta información, se puede obtener el respectivo estadístico del total de datos  |
 |e. | Al hacer una gráfica, las frecuencias deben representarse en el eje de la ordenada. |
 |f. | El histograma, es una presentación muy efectiva de las distribuciones de frecuencias. |
 |g. | El polígono de frecuencias, es especialmente apto para comparar diferentes disribuciones.|
 |h. | Una variable discreta puede ser representada mediante un histograma |
 |i. | El diagrama de barras se utiliza para representar datos continuos. |
 |j. | La relación de escalas en una gráfica debe de ser 1:1 |
-|k. | Las gráficas se representan en el primer cuadrante. |
+|k. | Las gráficas se representan en el primer cuadrante del plano cartesiano. |
 |l. | Si multiplicamos la variable por una constante, el coeficiente de variación se altera. |
 |m. | La varianza de una constante por una variable es igual a la varianza de la variable. |
 |n. | Al sumar 4 a cada uno de los números de la serie : 2, 6, 5, 9, 1 se obtiene la serie 6, 10, 9, 13 y 5. Las series tienen igual varianza, distinta media y diferente coeficiente de variación. |
@@ -93,24 +92,24 @@ Responda F (Falso)  o V (Verdadero), justificando la respuesta en caso de ser Fa
 
 Elabore un gráfico para representar adecuadamente la siguiente información: 
 
-Durante 5 meses se construyen 134 kilómetros de carretera en la siguiente forma: En el primer més, 3.60\% del total del proyecto; en el segundo més un 7.60\% del total; en el tercer més, el 15.3\% del total; en el cuarto més 24.5\%  del total y en último més, el 49\% restante. 
+* Durante 5 meses se construyen 134 kilómetros de carretera en la siguiente forma: En el primer més, 3.60\% del total del proyecto; en el segundo més un 7.60\% del total; en el tercer més, el 15.3\% del total; en el cuarto més 24.5\%  del total y en último més, el 49\% restante. 
 
-El grupo de Probabilidad y Estadística a cargo de un profesor está conformado por : 	9 estudiantes de Ingeniería Electrónica, 	6 de Ingeniería de Sistemas, 	25 de Ingeniería Civil, 	19 de Negocios Internacionales 	8 de Biología y 	3 de Ingeniería Mecánica. De los que estudian  Ingeniería Electrónica 6 son hombres, de los matriculados en Ingeniería de Sistemas 2 son mujeres,	de los que estudian Ingeniería Civil 18 son  hombres, de los que estudian Negocios internacionales 16 son mujeres, 	de  los que estudian Biología 5 son mujeres y finalmente de los que estudian Ingeniería  Mecánica 2 son hombre.
+* El grupo de Probabilidad y Estadística a cargo de un profesor está conformado por : 	9 estudiantes de Ingeniería Electrónica, 	6 de Ingeniería de Sistemas, 	25 de Ingeniería Civil, 	19 de Negocios Internacionales 	8 de Biología y 	3 de Ingeniería Mecánica. De los que estudian  Ingeniería Electrónica 6 son hombres, de los matriculados en Ingeniería de Sistemas 2 son mujeres,	de los que estudian Ingeniería Civil 18 son  hombres, de los que estudian Negocios internacionales 16 son mujeres, 	de  los que estudian Biología 5 son mujeres y finalmente de los que estudian Ingeniería  Mecánica 2 son hombre.
     
-Una consulta en tiendas en linea para memorias USB 128GB arrojó lo siguientes valores: 
+* Una consulta en tiendas en linea para memorias USB 128GB arrojó lo siguientes valores: 
 
 ```{r, eval=FALSE}
 
-	6 | 0 3 4
-	6 | 7 8 8 8
-	7 | 0 0 1 1 2 2 2 3 3 4 4
-	7 | 5 5 5 5 5 6 6 7 7 9
-	8 | 0 3 3 4
-	8 | 5 6 7 8 8 9 9
-	9 | 1
+     	6 | 0 3 4
+	    6 | 7 8 8 8
+	    7 | 0 0 1 1 2 2 2 3 3 4 4
+	    7 | 5 5 5 5 5 6 6 7 7 9
+	    8 | 0 3 3 4
+	    8 | 5 6 7 8 8 9 9
+	    9 | 1
 ```
 
-La clasificación de los empleados de una empresa por cargo es la siguiente: un Administradores, tres Ingenieros, treinta operarios, ocho celadores, dos contadores, tres secretarias, cinco supervisores, treinta y seis vendedores. 
+* La clasificación de los empleados de una empresa por cargo es la siguiente: un Administradores, tres Ingenieros, treinta operarios, ocho celadores, dos contadores, tres secretarias, cinco supervisores, treinta y seis vendedores. 
 
 <br/><br/><br/>
 

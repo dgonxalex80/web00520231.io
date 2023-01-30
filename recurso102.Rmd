@@ -245,6 +245,18 @@ Es más rápido utilizando la función de R : `quantile`
 quantile(futbol$off, c(0.25,.50,0.75,0.10))
 ```
  
+ <br/> <br/>
+ 
+ ### **Renumen**
+ 
+ |                |                                                            |
+ |:---------------|:-----------------------------------------------------------|
+ | Percentiles    | Divide la muestra en 100 partes de igual porcentaje, cada una con un 1%. $P_{1}, P_{2}, \dots P_{99}$ |
+ | Deciles        | Dividen la muestra en 10 parte de igual porcentaje,  cada una con un 10%. $D_{1}, D_{2}, \dots D_{9}$ |
+ | Quintiles      | Dividen la muestra en 5 partes de igual porcentaje, cada una con un 20%. $K_{1}, K_{2}, K_{3}, K_{4}$ |
+ | Cuartiles     | Dividen la muestra en 4 partes de igual porcentaje, cada una con un 25%. $Q_{1}, Q_{2}, Q_{3}$ |
+  
+ 
   <br/> <br/>
   
 ## **Indicadores de los Datos**
@@ -285,9 +297,11 @@ Propiedades de la media :
 
 + Si $x_{i}=k$ para todo $i$, entonces, $\bar{x}=k$.
 
++ Si a todos los datos de una variable se le suma una constante $k$, es decir  $y_{i}=x_{i} + k$, entonces $\bar{y}=\bar{x} +k$
+
 + Si todos los datos de una variable se multiplican por una constante $k$, es decir $y_{i}=kx_{i}$, entonces $\bar{y}=k\bar{x}$
 
-+ Si $z_{i}=a x_{i}+b y_{i}$, donde: **a**, **b** constantes y $x_{i}$, $y_{i}$ variables, entonces: $\bar{z}=a\bar{x}+b\bar{y}$. 
++ Si $z_{i}=a x_{i}+b y_{i}$, donde: *a*, *b* constantes y $x_{i}$, $y_{i}$ variables, entonces: $\bar{z}=a\bar{x}+b\bar{y}$. 
 
  <br/> <br/>
  
@@ -497,6 +511,8 @@ $$s^{2}=\frac{1}{n-1} \sum_{i=1}^{n} (x_{i}-\bar{x})^{2}$$
 
 + La varianza de una constante es cero $s_{k}^{2}=0$
 
++ Si $y_{i}= x_{i} + k$, entonces $s_{y}^{2}= s_{x}^{2}$
+
 + Si $y_{i}=k x_{i}$, entonces $s_{y}^{2}= k^{2} s_{x}^{2}$
 
 + Si $y_{i}=x_{i} + k$ , entonces  $s_{y}^{2} = s_{x}^{2}$
@@ -572,6 +588,14 @@ p
 ```
 
  <br/> <br/>
+
+
+
+$$CA = \dfrac{1}{s^{4}}\Bigg(\dfrac{1}{n} \sum_{i=1}^{n} (x-\bar{x})^{4} \Bigg) - 3$$
+<br/><br/>
+
+
+
  
 ```{r}
 rapportools::kurtosis(futbol$off)
@@ -595,13 +619,19 @@ Mide que tanto la forma de la distribución de frecuencias de los datos es simé
 + **Simetrica** : Poco con poco, poco con mucho, mucho al rededor de un centro
 + **Asimetria positiva** : Mucho con poco, poco con mucho
 
-<br/>
+<br/><br/>
+
+
+
+$$CA = \dfrac{1}{s^{4}}\Bigg(\dfrac{1}{n} \sum_{i=1}^{n} (x-\bar{x})^{4} \Bigg) - 3$$
+
+<br/><br/>
 
 ```{r}
 rapportools::skewness(futbol$off)
 ```
 
-<br/>
+<br/><br/>
 
 El valor obtenido para el sesgos nos indica que existe un mediano sesgo positivo o a la derecha ( mucho con poco - poco con mucho). Este resultado nos indica que muchos equipos tienen bajo nivel ofencivo y unos pocos son los que tienen un alto poder ofencivo.
 
@@ -753,6 +783,7 @@ t2
 
 
 + Cálculos las estadísticas descriptivas del nivel de ansiedad y describa los resultados en un párrafo
+
 
 ```{r}
 summarytools::descr(data$nivans)
