@@ -74,7 +74,7 @@ Responda F (Falso)  o V (Verdadero), justificando la respuesta en caso de ser Fa
 |:--|:-------------------------------------------------|
 |a. | La desviación estándar del conjunto de valores  2, 2, 2, 2  y 2 es 2. |
 |b. | En una distribución de frecuencias acampanada, el rango de los datos es aproximadamente igual a seis desviaciones estándar. |
-|c. | Dos conjuntos de datos de tamaños $n_1$ y $n_2$ tienen respectivamente promedios $\bar{x}_{2}$ y $\bar{x}_{2}$, a partir de esta información, se puede obtener el respectivo estadístico del total de datos  |
+|c. | Dos conjuntos de datos de tamaños $n_1$ y $n_2$ tienen respectivamente promedios $\bar{x}_{1}$ y $\bar{x}_{2}$, a partir de esta información, se puede obtener el respectivo estadístico del total de datos ($\bar{x}$) |
 |e. | Al hacer una gráfica, las frecuencias deben representarse en el eje de la ordenada. |
 |f. | El histograma, es una presentación muy efectiva de las distribuciones de frecuencias. |
 |g. | El polígono de frecuencias, es especialmente apto para comparar diferentes disribuciones.|
