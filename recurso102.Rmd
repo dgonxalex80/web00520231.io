@@ -197,20 +197,20 @@ Es un número que divide la muestra en dos partes. $x$ % de los datos de la mues
 
  <br/>
  
-```{r, warning=FALSE, message=FALSE, fig.height=2, fig.width=8} 
+```{r, warning=FALSE, message=FALSE, fig.height=5, fig.width=8} 
 p=ggplot(futbol, aes(x=off))+geom_boxplot(fill = "#b0394a",           # Color caja
                alpha = 0.3,        # Transparencia
                color = "#000000",          # Color del borde
                outlier.colour = "#000000") # Color atípicos
 
 p + geom_text(data = NULL, x = 1.5, y = 0.4, label = "Q3",col="#b0394a")+
-    geom_text(data = NULL, x = 1.03, y = 0.4, label = "Q2=Me",col="#b0394a")+
+    geom_text(data = NULL, x = 1.03, y = 0.4, label = "Q2 = mediana",col="#b0394a")+
     geom_text(data = NULL, x = 0.65, y = 0.4, label = "Q1",col="#b0394a") +
     geom_text(data = NULL, x = 0.2, y = 0.4, label = "mín",col="#b0394a") +
     geom_text(data = NULL, x = 3.5, y = 0.4, label = "máx",col="#b0394a") +
     geom_text(data = NULL, x = 3, y = 0.4, label = "atípicos",col="#b0394a") +
-    geom_text(data = NULL, x = 1.166468, y = 0, label = "x",col="#b0394a") +
-    geom_text(data = NULL, x = 1.2, y = 0.4, label = "media",col="#b0394a")
+    geom_text(data = NULL, x = 1.166468, y = 0, label = "*  media",col="#b0394a")# +
+ #   geom_text(data = NULL, x = 1.2, y = 0.4, label = "media",col="#b0394a")
   
 ```
 
