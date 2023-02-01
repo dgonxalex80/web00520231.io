@@ -89,3 +89,13 @@ knitr::include_graphics("img/calendarioE.png")
 # knitr::include_graphics("img/calendario2023-1bre.png")
 ```
 
+# **Salones de clase**
+
+|                      | 300MAE005 A                         | 300MAE005 E         |
+|:---------------------|:------------------------------------|:--------------------|
+| LUNES                | ALM 1.7                             |  LG 3.2             |  
+| MIERCOLES            | ALM 1.5                             |  LG 1.5             |
+| VIERNES              | ALM 1.7                             |  LG 2.0             |
+
+
+
