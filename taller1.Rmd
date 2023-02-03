@@ -139,3 +139,11 @@ El responsable de la auditorı́a le pide revise cada uno de los lineamientos y 
 knitr::include_graphics("img/resumen00.png")
 ```
 
+<br/><br/>
+
+# **Solución**
+
+a. No posee datos atípicos
+
+Para determinar si existen datos atípicos podemos construir un diagrama de cajas que visualiza 
+

@@ -42,16 +42,10 @@ navbar:
         - text: "Caso 1"
           href: caso1.html 
         - text: "Taller 1"
-          href: taller1.html         
+          href: taller1.html  
+        - text: "Taller 2"
+          href: taller2.html            
         - text: "---------"          
-        - text: "Introducción a R"
-          href: introduccionR.html
-        - text: "Código 1.1"
-          href: codigo101.html
-        - text: "Código 1.2"
-          href: codigo102.html
-        - text: "Código 1.3"
-          href: codigo103.html          
     - text: "Módulo 2"
       menu:
         - text: "Módulo 2"
@@ -68,6 +62,28 @@ navbar:
       menu:
         - text: "Módulo 5"
           href: Modulo5.html
+    - text: "R"
+      menu:
+        - text: "Introducción a R"
+          href: introduccionR.html
+          
+          
+        - text: "Código 1.1"
+          href: codigo101.html
+        - text: "Código 1.2"
+          href: codigo102.html
+        - text: "Código 1.3"
+          href: codigo103.html   
+        - text: "Guía 1.1"
+          href: Guia101.html            
+        - text: "Guía 1.2"
+          href: Guia102.html            
+        - text: "Guía 1.3"
+          href: pagina0.html        
+          
+          
+          
+          
   html_document:
     theme: flatly
     css: style.css
