@@ -33,6 +33,7 @@ c5= "#db524f"
 knitr::include_graphics("img/banner1.png")
 ```
 
+
 <br/><br/>
 
 1. La siguiente información corresponde a los resultados obtenidos en un quiz1 presentado por los estudiantes de Probabiñidad y Estadística del periodo 2022-2
@@ -56,6 +57,7 @@ b. El director de la carrera supone que si las distribución de las notas debe t
 <br/><br/>
 
 2. Con respecto a los datos representados en la siguiente gráfica, cual de las siguiente afirmaciones son verdaderas (V) , cuales falsas (F). En cada caso justificar su respuesta.
+
 
 
 ```{r, echo=FALSE, out.width="30%", fig.align = "center"}
@@ -100,7 +102,7 @@ La no existencia de datos atípicos genera que la mediana este más arriba en co
 
 <br/><br/>
 
-3. Una empresa distribuidora de cemento tiene cuatro locales en la ciudad. La información resumida en la siguiente tabla corresponde al número de artículos vendidos por día  diarias, en una muestra aleatoria de diez dias, procedentes de cada uno de los cuatro locales
+3. Una empresa distribuidora de cemento tiene cuatro locales en la ciudad. La información resumida en la siguiente tabla corresponde al número de artículos vendidos por día, en una muestra aleatoria de diez dias, procedentes de cada uno de los cuatro locales
 
 <br/>
 
@@ -121,4 +123,4 @@ Realice una breve descripción de las ventas de la empresa a partir de la inform
 
 <br/><br/>
 
-5. Una lista de diez número tiene una media de 20, una mediana de 18 y una desviación estándar de 5. El número más grande de la lista es 39.32. Accidentalmente este número se cambia por 392.7 . Si se desea corregir el error, cuales serian los valores correctos de la media, mediana y de la desviación estándar?
+5. Una lista de diez número tiene una media de 20, una mediana de 18 y una desviación estándar de 5. El número más grande de la lista es 39.32. Accidentalmente este número se cambia por 62.7 . Si se desea corregir el error, cuales serian los valores correctos de la media, mediana y de la desviación estándar?
