@@ -370,7 +370,7 @@ div.tocify {
       <a href="Guia102.html">Guía 1.2</a>
     </li>
     <li>
-      <a href="pagina0.html">Guía 1.3</a>
+      <a href="Guia103.html">Guía 1.3</a>
     </li>
     <li class="divider"></li>
     <li>
@@ -380,7 +380,7 @@ div.tocify {
       <a href="recurso102.html">Recursos 1.2</a>
     </li>
     <li>
-      <a href="pagina0.html">Recursos 1.3</a>
+      <a href="recurso103.html">Recursos 1.3</a>
     </li>
     <li class="divider"></li>
     <li>
@@ -448,6 +448,8 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-code"></span>
+     
     R
      
     <span class="caret"></span>
@@ -466,13 +468,13 @@ div.tocify {
       <a href="codigo103.html">Código 1.3</a>
     </li>
     <li>
-      <a href="Guia101.html">Guía 1.1</a>
+      <a href="pagina0.html">Código 2.1</a>
     </li>
     <li>
-      <a href="Guia102.html">Guía 1.2</a>
+      <a href="pagina0.html">Código 2.2</a>
     </li>
     <li>
-      <a href="pagina0.html">Guía 1.3</a>
+      <a href="pagina0.html">Código 3.1</a>
     </li>
   </ul>
 </li>
@@ -748,17 +750,21 @@ no dependen de los datos</p></li>
 <p><a
 href="https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">Visualizacion
 de datos con ggplot2</a></p>
+<p></br></br></p>
 <pre class="r"><code>library(readr)
 library(ggplot2)
 clasificacion=read.csv(&quot;data/spi_global_rankings_intl.csv&quot;)
 ggplot(clasificacion, aes(x=off , y=def))</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>ggplot(clasificacion, aes(x=off , y=def))+
   geom_point()</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>ggplot(clasificacion, aes(x=off , y=def))+
   geom_point()</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p></br></br></p>
 <table>
 <colgroup>
 <col width="23%" />
@@ -787,17 +793,20 @@ ggplot(clasificacion, aes(x=off , y=def))</code></pre>
 </tr>
 </tbody>
 </table>
+<p></br></br></p>
 <pre class="r"><code>ggplot(clasificacion, aes(x=off , y=def))+
   geom_point()+
   facet_wrap(~ confed)</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>ggplot(clasificacion, aes(x=off , y=def))+  geom_point()+
   facet_wrap(~ confed)+ stat_smooth(method = &quot;loess&quot; , formula =y ~ x)</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>ggplot(clasificacion, aes(x=off , y=def))+  geom_point()+  facet_wrap(~ confed)+ stat_smooth(method = &quot;loess&quot; , formula =y ~ x)+
     coord_cartesian(ylim = c(0, 10))</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
-<hr />
+<p></br></br></p>
 <pre class="r"><code>library(ggplot2)
 data=data.frame(carrera=c(&quot;biologia&quot;,&quot;biomedica&quot;,&quot;civil&quot;,&quot;electronica&quot;,&quot;mecanica&quot;,  &quot;sistemas&quot;),frecuencia=c(8, 9,10,2, 3,7))
 
@@ -806,22 +815,26 @@ ggplot(data, aes(x=carrera, y=frecuencia)) +
   geom_text(aes(label=frecuencia), vjust=2.5, color=&quot;white&quot;, size=7)+
   theme_minimal()</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>library(ggplot2)
 ggplot(mtcars, aes(x=mpg, y=wt, colour = cyl)) + 
   geom_point()</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>ggplot(iris, aes(Sepal.Length)) +
        geom_histogram(bins = 7,fill=&quot;#447270&quot;, color=&quot;#e9ecef&quot;, alpha=0.9)+
        theme_minimal() +
        labs(x = &quot;cm&quot;, y = &quot;frecuencia absoluta&quot;) +
        ggtitle(&quot;Longitud del sepalo&quot;)</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
+<p></br></br></p>
 <pre class="r"><code>ggplot(iris, aes(x=Sepal.Length, y=Species)) +
   geom_boxplot(fill=c(&quot;#faf0ca&quot;,&quot;#f4d35e&quot;,&quot;#ee964d&quot;),  # color de relleno
                color=&quot;#0d3b66&quot;,    # color de lineas
                alpha=0.5)+
   geom_point(color=&quot;#f95738&quot;,alpha=0.9)     # color puntos</code></pre>
 <p><img src="recurso103_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
+<p></br></br></p>
 </div>
 <div id="gráficos-con-gganimate" class="section level2">
 <h2><strong>Gráficos con gganimate</strong></h2>
@@ -859,6 +872,7 @@ class="uri">https://rstudio-pubs-static.s3.amazonaws.com/320413_6ab300527e8548b1
 class="uri">https://plotly.com/r/</a></p>
 <p><a href="https://plotly-r.com/"
 class="uri">https://plotly-r.com/</a></p>
+<p></br></br></p>
 </div>
 <div id="graficos-con-shiny" class="section level2">
 <h2><strong>Graficos con Shiny</strong></h2>
@@ -870,6 +884,7 @@ humano</a></p></li>
 R</a></p></li>
 <li><p><a href="https://shiny.rstudio.com/gallery/">Galeria</a></p></li>
 </ul>
+<p></br></br></p>
 <div id="rmarkdown" class="section level3">
 <h3><strong>RMarkdown</strong></h3>
 <p><a
@@ -879,8 +894,12 @@ resumen</a><br/></p>
 flexdashboard - ejemplo</a><br/> <a
 href="https://geoprocesamiento-2020i.github.io/tutorial-flexdashboard/">R
 flexdashboard - implementaciòn</a></p>
+<p></br></br></p>
 <p><img src="img/pujcali.jpeg" /></p>
-<p>Una imagen dice mas que mil palabras…</p>
+<p></br></br></p>
+</div>
+<div id="una-imagen-dice-mas-que-mil-palabras" class="section level3">
+<h3><strong>Una imagen dice mas que mil palabras…</strong></h3>
 <p>Daniel Enrique González Gómez</p>
 <p>Imagen tomada de :<a
 href="https://javerianacali.edu.co/noticias/la-javeriana-bogota-y-cali-1-de-colombia"
