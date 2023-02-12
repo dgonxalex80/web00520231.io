@@ -26,6 +26,8 @@ c2= "#a391c4"
 c3= "#8acfe6"
 c4= "#646420"
 c5= "#db524f"
+
+paleta4=c(c0,c1,c2,c3)
 ```
 
 ![](img/banner1.png)
