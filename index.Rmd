@@ -66,6 +66,14 @@ knitr::include_graphics("img/calendarioE.png")
 
 <br/><br/>
 
+
+# **Parciales**
+
+
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/parciales.png")
+```
+
 # **Atención a Estudiantes**
 
 
