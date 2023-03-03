@@ -67,6 +67,13 @@ navbar:
       menu:
         - text: "Módulo 3"
           href: Modulo3.html
+        - text: "---------"  
+        - text: "Recursos 3.1"
+          href: recurso301.html  
+        - text: "---------"            
+        - text: "Monitoria 3"
+          href: monitoria3.html            
+          
     - text: "Módulo 4"
       menu:
         - text: "Módulo 4"

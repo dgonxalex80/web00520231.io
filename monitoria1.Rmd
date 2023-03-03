@@ -332,7 +332,7 @@ El puntaje alcanzado por estudiantes en un test para medir el razonamiento deduc
 
 | Edad     |Marca de clase   |Frecuencia Absoluta |Frecuencia Relativa | Frec. Acum. Absoluta  |Frec. Acum. Relativa |
 :----------|:----------------|:------------------:|--------------------|-----------------------|:--------------------|
-|[0-10)    |                 | 3                  |                    |                       |                     |        
+|[0-10)    |                 | 3                  |                    |                       |                     |    
 |[10-20)   |                 | 6                  |                    |                       |                     |
 |[20-30)   |                 | 7                  |                    |                       |                     |
 |[30-40)   |                 | 12                 |                    |                       |                     |
