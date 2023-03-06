@@ -98,10 +98,8 @@ navbar:
           href: codigo103.html   
         - text: "Código 2.1"
           href: codigo201.html             
-        - text: "Código 2.2"
-          href: pagina0.html            
         - text: "Código 3.1"
-          href: pagina0.html        
+          href: codigo301.html        
   html_document:
     theme: flatly
     css: style.css
