@@ -68,6 +68,9 @@ navbar:
         - text: "Módulo 3"
           href: Modulo3.html
         - text: "---------"  
+        - text: "Guía 3.1"
+          href: Guia301.html  
+        - text: "---------"  
         - text: "Recursos 3.1"
           href: recurso301.html  
         - text: "---------"            
