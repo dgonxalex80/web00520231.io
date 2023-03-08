@@ -75,7 +75,9 @@ navbar:
           href: recurso301.html  
         - text: "---------"            
         - text: "Monitoria 3"
-          href: monitoria3.html            
+          href: monitoria3.html  
+        - text: "Taller 311"
+          href: taller311.html           
           
     - text: "Módulo 4"
       menu:
