@@ -225,7 +225,7 @@ Determine:
 
 <br/><br/>
 
-**6.** Para una variable aleatoria con función de distribución de probabilidad: $f(x)= (3/4)(1/4)^{x}$, para $x=0, 1, 2, 3,... $
+**6.** Para una variable aleatoria con función de distribución de probabilidad: $f(x)= (3/4)(1/4)^{x}$, para $x=0, 1, 2, 3,...$
 
 + $P(X = 2)$
 + $P(X \leq 2)$
