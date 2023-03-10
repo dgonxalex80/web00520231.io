@@ -118,6 +118,8 @@ $$f_{_{X}}(x) = \left \{
 				\end{matrix}\right.  
 				$$
 
+Encontrar la probabilidad de :
+
 * menos de 120 horas.
 * entre 50 y 100 horas.
 
