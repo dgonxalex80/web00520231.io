@@ -26,8 +26,8 @@ Clasifique las siguientes variables como discretas o continuas:
 |X :   | el número de accidentes automovilísticos que ocurren durante un dia en Cali    |
 |Y :   | tiempo que se tarda una persona en recorrer 100 metros en segundos             |
 |M :   | cantidad de leche que una vaca produce semanalmente en litros                  |
-|N :   | el número de huevos que una gallina produce semanalmente                       |
-|P :   | número de permisos para la construcción que son aprobados mensualmente en Cali |
+|Z :   | el número de huevos que una gallina produce semanalmente                       |
+|G :   | número de permisos para la construcción que son aprobados mensualmente en Cali |
 |Q :   | peso en kilogramos de automóvil                                                |
 |R :   | embergadura de las alas  de un condor en edad adulta en metros                 |
 |S :   | tiempo que dedica una persona al ocio - tiempo no productivo en horas          |
