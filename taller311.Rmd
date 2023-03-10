@@ -178,7 +178,7 @@ La probabilidad de tener una unidad defectuosa en una línea de ensamblaje es de
 $$f(x) = \binom{10}{x} p^{x} (1 − p)^{10−x}  \text{,  } x = 0, 1, . . . , 10$$
 
 * ¿cuál es la probabilidad de que en diez unidades dos se encuentren defectuosas?
-* ¿y de que a lo sumo dos se encuentren defectuosas?
+* ¿cuál es la probabilidad de encontrar máximo dos defectuosas?
 * ¿cuál es la probabilidad de que por lo menos una se encuentre defectuosa?
 
 
