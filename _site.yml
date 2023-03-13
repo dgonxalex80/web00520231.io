@@ -70,6 +70,8 @@ navbar:
         - text: "---------"  
         - text: "Guía 3.1"
           href: Guia301.html  
+        - text: "Guía 3.2"
+          href: Guia302.html            
         - text: "---------"  
         - text: "Recursos 3.1"
           href: recurso301.html  
