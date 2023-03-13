@@ -73,12 +73,13 @@ navbar:
         - text: "---------"  
         - text: "Recursos 3.1"
           href: recurso301.html  
+        - text: "Recursos 3.2"
+          href: recurso302.html            
         - text: "---------"            
         - text: "Monitoria 3"
           href: monitoria3.html  
         - text: "Taller 311"
-          href: taller311.html           
-          
+          href: taller311.html
     - text: "Módulo 4"
       menu:
         - text: "Módulo 4"
@@ -101,7 +102,9 @@ navbar:
         - text: "Código 2.1"
           href: codigo201.html             
         - text: "Código 3.1"
-          href: codigo301.html        
+          href: codigo301.html  
+        - text: "Código 3.2"
+          href: codigo302.html            
   html_document:
     theme: flatly
     css: style.css
