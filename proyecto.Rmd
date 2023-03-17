@@ -44,7 +44,7 @@ Los estudiantes deberán realizar un proyecto que les permita poner en práctica
   
 En equipos de hasta cuatro estudiantes deberán desarrollar un trabajo que corresponda a un problema de  interés para el  grupo, que permita la aplicación de la Estadística en un tema específico. 
 
-El producto de este trabajo deberá ser entregado en un  poster impreso y en formato pdf  y ser presentado por los integrantes del grupo, contando de un tiempo de 10 minutos para ello.
+El producto de este trabajo deberá ser entregado en formato  **poster** impreso y en formato pdf  y ser presentado por los integrantes del grupo, contando de un tiempo de 10 minutos para ello.
 
 <br/><br/><br/>
   
@@ -56,7 +56,7 @@ El producto de este trabajo deberá ser entregado en un  poster impreso y en for
 
 +  El contenido del poster deberá utilizar por lo menos 6 resultados producto de la inferencia estadística (intervalos de confianza o pruebas de hipótesis) que respalden los resultados presentados
 
-+ Al final los estudiantes deberán realizar una presentación del trabajo y de los principales hallazgos. Cada grupo contará con un tiempo de 5 minutos para la presentación de los resultados.
++ Al final los estudiantes deberán realizar una presentación del trabajo y de los principales hallazgos.
 
 + Contenido del poster
     + Titulo
@@ -75,10 +75,13 @@ El producto de este trabajo deberá ser entregado en un  poster impreso y en for
   
 ### **Primera Entrega : Informe parcial** 
 
-+ Documento con propuesta seleccionada (problema) 
-    + Titulo
-    + Estado del arte
-    + Metodologia
+Documento con propuesta seleccionada (problema) 
+    
+* Titulo
+    
+* objetivos
+    
+* Metodología
 
 Fecha :  abril  14 de 2023
 Hora : 23.59
@@ -89,7 +92,9 @@ Hora : 23.59
 ### **Segunda entrega : Informe parcial**
 
 Adicional del informe anterior:
+
    * Ficha tecnica de la información
+
    * Análisis descriptivo de la información
 
 Fecha :  mayo 5 de 2023
@@ -98,8 +103,9 @@ Fecha :  mayo 5 de 2023
   
 ### **Entrega del informe final y presentación:**
 
-+ **Poster** en formato pdf 
-+ **video** o enlace de video con la sustentación del trabajo (requisito cámara prendida)
+* **Poster** en formato pdf 
+
+* **video** o enlace de video con la sustentación del trabajo (requisito cámara prendida)
 
 Fecha: mayo 19 de mayo de 2023 <br/>
 
@@ -111,8 +117,8 @@ Fecha: mayo 19 de mayo de 2023 <br/>
   
 + Metodología de la investigación . Hernandez Sampieri Roberto. Segunda edición. Mc Graw-Hill
 + Investigación de Mercados. Naresh K. Malhotra. Quinta Edición. Pearson.
-+ [Poster en overleaf](https://www.overleaf.com/learn/latex/Posters)
-+ [trello- tablero para la gestión de proyectos](https://trello.com/es/tour)
++ [Poster en overleaf](https://www.overleaf.com/learn/latex/Posters) : plataforma con formatos TeX y posibilidad de trabajo grupal en linea
++ [trello- tablero para la gestión de proyectos](https://trello.com/es/tour) : Metodogía Kamban (tablero Kamban)
 
 <br/><br/>
 
