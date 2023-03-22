@@ -62,11 +62,9 @@ Para alcanzar los objetivos planteados se propone realizar las siguientes activi
 
 |Actividad        | Descripción                                                             | 
 |:----------------|:------------------------------------------------------------------------|
-|[**Actividad 331**](https://dgonxalex80.github.io/pye20222/Actividad331.html)
-|**Artículo**                                                             |
-|                 | Paso 1: Construir un artículo en formato Rmd (Rmarkdown)  para el modelo asignado que contenga sus principales características   |
-|                 | Paso 2: Aportar al trabajo realizado por el compañero asignado por el profesor - **sep 30 de 2022**| 
-|Fecha            | abril  2 de 2023                                                       |
+|[**Actividad 331**](https://dgonxalex80.github.io/pye20222/Actividad331.html) |            |    
+|**Poster**       | Construir un poster en formato A1 (841x594)  para el modelo asignado que contenga sus principales características   |
+|Fecha            | abril  2 de 2023                                                        |
 |Hora             | 23:59                                                                   |
 
 Los documentos construidos por todos serán publicados en un blog para la revisión de todos
